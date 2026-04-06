@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: youtube-transcript
 description: Extract subtitles and transcripts from YouTube videos using yt-dlp. Use when asked to transcribe a YouTube video, get video captions, extract what was said in a video, summarize a YouTube video's spoken content, or get video metadata. Supports auto-generated and manual subtitles in any language.
@@ -52,3 +56,15 @@ The transcript script outputs clean text with timestamps stripped. For raw subti
 - Some videos have no captions at all
 - Works with YouTube shorts, playlists (first video), and live streams (if archived)
 - yt-dlp must be installed (check: `which yt-dlp`)
+
+
+## Installation
+
+```bash
+# Copy to your OpenClaw skills directory
+cp -r youtube-transcript/ ~/.openclaw/workspace/skills/youtube-transcript/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
