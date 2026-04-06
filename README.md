@@ -57,11 +57,9 @@ The transcript script outputs clean text with timestamps stripped. For raw subti
 - Works with YouTube shorts, playlists (first video), and live streams (if archived)
 - yt-dlp must be installed (check: `which yt-dlp`)
 
-
 ## Installation
 
 ```bash
-# Copy to your OpenClaw skills directory
 cp -r youtube-transcript/ ~/.openclaw/workspace/skills/youtube-transcript/
 ```
 
